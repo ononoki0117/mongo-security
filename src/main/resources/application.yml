@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mongo-security
+
+  data:
+    mongodb:
+      uri: mongodb+srv://ononoki0117:Kuro11350@finalproject.no9i360.mongodb.net/data?retryWrites=true&w=majority&appName=FinalProject
+      database: data
+javaprograming:
+  app:
+    jwtCookieName: ononoki
+    jwtSecret: ======================BezKoder=Spring===========================
+    jwtExpirationMs: 86400000
